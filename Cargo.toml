@@ -1,0 +1,23 @@
+[package]
+name = "KlyntarScanRust"
+version = "0.1.0"
+edition = "2021"
+description = "Rust implementation of explorer for symbiotes of Klyntar"
+readme = "README.md"
+repository="https://github.com/KLYN74R/KlyntarScanRust"
+lisence="MIT"
+authors = ["Vlad Chernenko vladchernenko@protonmail.com"]
+keywords = ["crypto", "exolorer", "klyntar"]
+
+
+[dependencies]
+serde_json = "1.0.81"
+hyper = "0.14.18"
+
+
+[features]
+# Nothing by default
+default = []
+
+
+#[[test]]
